@@ -18,7 +18,7 @@ const App = () => {
           <img id="wallonia" src="/wallonia.png" alt="" />
         </div>
         <Canvas
-        id="canvas-elem"
+          id="canvas-elem"
           style={{
             height: "100vh",
             width: "100vw",
@@ -117,7 +117,42 @@ const App = () => {
             </div>
           </div>
         </section>
-        <section id="section-3"></section>
+        <section id="section-3">
+          <div className="top">
+            <div className="left">
+              <h3>
+                Lorem ipsum dolor <br /> sit amet
+                <br /> consectetur adipisicing <br /> elit. Praesentium
+              </h3>
+            </div>
+            <div className="right"></div>
+          </div>
+        </section>
+        <section id="section-4">
+          <div className="bottom">
+            <div className="left"></div>
+            <div className="right">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Accusantium a incidunt ratione, eligendi minima mollitia quam
+                maxime cumque aut quisquam assumenda rem veritatis! Voluptates
+                et repudiandae voluptas praesentium laborum corrupti architecto
+                harum, quos alias facere molestiae hic quaerat laudantium ex!
+                Culpa odio necessitatibus accusantium et deleniti repudiandae
+                sit eos non!
+              </p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Accusantium a incidunt ratione, eligendi minima mollitia quam
+                maxime cumque aut quisquam assumenda rem veritatis! Voluptates
+                et repudiandae voluptas praesentium laborum corrupti architecto
+                harum, quos alias facere molestiae hic quaerat laudantium ex!
+                Culpa odio necessitatibus accusantium et deleniti repudiandae
+                sit eos non!
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );

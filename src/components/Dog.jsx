@@ -147,7 +147,7 @@ const Dog = () => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: "#section-1",
-        endTrigger: "#section-3",
+        endTrigger: "#section-4",
         start: "top top",
         end: "bottom bottom",
         markers: true,
@@ -226,7 +226,7 @@ const Dog = () => {
     document
       .querySelector(`.title[img-title="louise-phone"]`)
       .addEventListener("mouseenter", () => {
-        material.current.uMatcap1.value = mat18;
+        material.current.uMatcap1.value = mat12;
         gsap.to(material.current.uProgress, {
           value: -0.8,
           duration: 0.3,
@@ -240,7 +240,7 @@ const Dog = () => {
     document
       .querySelector(`.title[img-title="kikk-festival"]`)
       .addEventListener("mouseenter", () => {
-        material.current.uMatcap1.value = mat18;
+        material.current.uMatcap1.value = mat10;
         gsap.to(material.current.uProgress, {
           value: -0.8,
           duration: 0.3,
@@ -278,6 +278,18 @@ const Dog = () => {
           },
         });
       });
+
+    document.querySelector(`.titles`).addEventListener("mouseleave", () => {
+      material.current.uMatcap1.value = mat2;
+      gsap.to(material.current.uProgress, {
+        value: -0.8,
+        duration: 0.5,
+        onComplete: () => {
+          material.current.uMatcap2.value = material.current.uMatcap1.value;
+          material.current.uProgress.value = 1.0;
+        },
+      });
+    });
   }, []);
 
   return (
