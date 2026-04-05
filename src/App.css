@@ -183,44 +183,54 @@ main:has(#section-2 .title:hover) #canvas-elem::after {
     width: 100%;
     object-fit: cover;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     opacity: 0;
     transition: all 0.3s linear;
   }
 }
 
-main:has(#section-2 .title[img-title="tomorrowland"]:hover) .images #tomorrowland {
+main:has(#section-2 .title[img-title="tomorrowland"]:hover)
+  .images
+  #tomorrowland {
   opacity: 1;
   background-color: rgb(0, 0, 36);
 }
 
 main:has(#section-2 .title[img-title="navy-pier"]:hover) .images #navy-pier {
-  opacity:1;
+  opacity: 1;
   background-color: rgb(0, 0, 36);
 }
 
-main:has(#section-2 .title[img-title="msi-chicago"]:hover) .images #msi-chicago {
-  opacity:1;
+main:has(#section-2 .title[img-title="msi-chicago"]:hover)
+  .images
+  #msi-chicago {
+  opacity: 1;
   background-color: rgb(0, 0, 36);
 }
 
-main:has(#section-2 .title[img-title="louise-phone"]:hover) .images #louise-phone {
-  opacity:1;
+main:has(#section-2 .title[img-title="louise-phone"]:hover)
+  .images
+  #louise-phone {
+  opacity: 1;
   background-color: rgb(0, 0, 36);
 }
 
-main:has(#section-2 .title[img-title="kikk-festival"]:hover) .images #kikk-festival {
-  opacity:1;
-  background-color: rgb(0, 0, 36);
+main:has(#section-2 .title[img-title="kikk-festival"]:hover)
+  .images
+  #kikk-festival {
+  opacity: 1;
+  background-color: rgb(0, 0, 61);
 }
 
-main:has(#section-2 .title[img-title="kennedy-center"]:hover) .images #kennedy-center {
-  opacity:1;
+main:has(#section-2 .title[img-title="kennedy-center"]:hover)
+  .images
+  #kennedy-center {
+  opacity: 1;
   background-color: rgb(0, 0, 36);
 }
 
 main:has(#section-2 .title[img-title="wallonia"]:hover) .images #wallonia {
-  opacity:1;
-  background-color: rgb(0, 0, 36);
+  opacity: 1;
+  background-color: rgb(36, 0, 0);
 }
